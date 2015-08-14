@@ -1,2 +1,2 @@
 # bingoexpress
-Bingo
+Bingo on mobile
