@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HostSetUpViewController.swift
 //  BingoExpress
 //
 //  Created by Edward Chen on 8/14/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SetUpViewController: UIViewController {
+class HostSetUpViewController: UIViewController {
 
     @IBOutlet weak var GameID: UILabel!
     @IBOutlet weak var Total_Players: UITextField!

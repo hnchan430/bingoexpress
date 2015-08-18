@@ -58,7 +58,7 @@
         <!--Host Set Up View Controller-->
         <scene sceneID="xOx-BJ-0RX">
             <objects>
-                <viewController id="0xz-uW-F1V" userLabel="Host Set Up View Controller" customClass="SetUpViewController" customModule="BingoExpress" sceneMemberID="viewController">
+                <viewController id="0xz-uW-F1V" userLabel="Host Set Up View Controller" customClass="HostSetUpViewController" customModule="BingoExpress" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="whN-Rl-Ui4"/>
                         <viewControllerLayoutGuide type="bottom" id="QPS-ZQ-EZj"/>

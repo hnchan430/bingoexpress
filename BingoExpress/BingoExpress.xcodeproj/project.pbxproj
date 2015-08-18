@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BCDD0C21B83080600AA49B4 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDD0C11B83080600AA49B4 /* SetUpViewController.swift */; };
+		2BCDD0C21B83080600AA49B4 /* HostSetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDD0C11B83080600AA49B4 /* HostSetUpViewController.swift */; };
 		2BD51D421B7EEA5500108261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD51D411B7EEA5500108261 /* AppDelegate.swift */; };
 		2BD51D471B7EEA5500108261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD51D451B7EEA5500108261 /* Main.storyboard */; };
 		2BD51D491B7EEA5500108261 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD51D481B7EEA5500108261 /* Images.xcassets */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BCDD0C11B83080600AA49B4 /* SetUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
+		2BCDD0C11B83080600AA49B4 /* HostSetUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostSetUpViewController.swift; sourceTree = "<group>"; };
 		2BD51D3C1B7EEA5500108261 /* BingoExpress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingoExpress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD51D401B7EEA5500108261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BD51D411B7EEA5500108261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				2BD51D411B7EEA5500108261 /* AppDelegate.swift */,
-				2BCDD0C11B83080600AA49B4 /* SetUpViewController.swift */,
+				2BCDD0C11B83080600AA49B4 /* HostSetUpViewController.swift */,
 				2BD51D451B7EEA5500108261 /* Main.storyboard */,
 				2BD51D631B813ED500108261 /* InitViewController.swift */,
 				2BD51D611B813D7000108261 /* Bingo.swift */,
@@ -221,7 +221,7 @@
 				2BD51D621B813D7000108261 /* Bingo.swift in Sources */,
 				2BD51D641B813ED500108261 /* InitViewController.swift in Sources */,
 				2BD51D421B7EEA5500108261 /* AppDelegate.swift in Sources */,
-				2BCDD0C21B83080600AA49B4 /* SetUpViewController.swift in Sources */,
+				2BCDD0C21B83080600AA49B4 /* HostSetUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
