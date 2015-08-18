@@ -7,7 +7,7 @@
         <!--Init View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Init View Controller" customClass="ViewController" customModule="BingoExpress" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Init View Controller" customClass="InitViewController" customModule="BingoExpress" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="502" y="88.5"/>
         </scene>
-        <!--Host View Controller-->
+        <!--Host Set Up View Controller-->
         <scene sceneID="xOx-BJ-0RX">
             <objects>
-                <viewController id="0xz-uW-F1V" userLabel="Host View Controller" customClass="ViewController" customModule="BingoExpress" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0xz-uW-F1V" userLabel="Host Set Up View Controller" customClass="SetUpViewController" customModule="BingoExpress" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="whN-Rl-Ui4"/>
                         <viewControllerLayoutGuide type="bottom" id="QPS-ZQ-EZj"/>
@@ -105,9 +105,6 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="105" y="243" width="178" height="84"/>
                                 </variation>
-                                <connections>
-                                    <action selector="start_new_game:forEvent:" destination="0xz-uW-F1V" eventType="touchDown" id="nmb-0H-tlQ"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8C-bP-0un">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -158,8 +155,8 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="GameID" destination="KWV-9q-4JP" id="buz-dA-KKx"/>
-                        <outlet property="TotalPlayers" destination="2N2-wX-QRa" id="2QC-uo-wy9"/>
+                        <outlet property="GameID" destination="KWV-9q-4JP" id="Q5t-UB-U1q"/>
+                        <outlet property="Total_Players" destination="2N2-wX-QRa" id="CsS-Tz-rm0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oko-xg-zMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
